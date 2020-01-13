@@ -90,8 +90,7 @@ setup(
     author_email=author_email,
     packages=get_packages(package),
     install_requires=[
-        'djangorestframework>=3.5.0',
-        'six'
+        'djangorestframework>=3.5.0'
     ],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
@@ -113,6 +112,8 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
         'Topic :: Internet :: WWW/HTTP',
     ]
 )
